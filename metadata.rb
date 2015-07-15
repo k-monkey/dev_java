@@ -5,3 +5,7 @@ license          'All rights reserved'
 description      'Installs/Configures dev_java'
 long_description 'Installs/Configures dev_java'
 version          '0.1.0'
+
+depends 'apache2', '~> 3.1.0'
+depends 'maven', '~> 1.3.0'
+depends 'java', '~> 1.31.0'
